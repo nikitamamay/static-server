@@ -244,7 +244,7 @@ while (arg = args.next()) {
 // Setting listeners
 
 app.all("*", (req, res, next) => {
-  logV(`[${dumpTime()} ${req.ip}] ${req.method} ${req.url}`);
+  logV(`[${dumpTime()} ${req.ip}] ${req.method} "${decodeURIComponent(req.url)}"`);
   next();
 });
 
