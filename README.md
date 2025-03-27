@@ -6,7 +6,8 @@ A user can click on a hyperlink and download the file.
 This program is intended to be used in LAN and **it is not protected from any attack.** Be careful setting this StaticServer on open port!
 
 Usage:
-`./static_server <path> [<args>]` \
+ `./static_server <path> [<args>]`
+
 Arguments:
   * `<path>`\
       **Necessary.** Defines a path to a directory, which will be a server static resources directory.
@@ -21,5 +22,5 @@ Arguments:
           Quiet mode.
       * `-v`\
           Verbose mode. Default.
-      `-help`\
+      * `-help`\
           Show help and exit.
